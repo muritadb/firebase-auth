@@ -11,7 +11,7 @@
 <body class="blue-grey darken-3">
   <nav class="z-depth-0 blue-grey darken-4">
     <div class="nav-wrapper container">
-      <a href="#"><img src="img/logo.svg" class="logo"></a>
+      <a href="./index.html"><img src="img/logo.svg" class="logo"></a>
 
       <ul data-js="nav-ul" class="right hide-on-med-and-down">
         <li data-js="logged-in" class="hide">
@@ -26,13 +26,13 @@
           <a data-js="logout" href="#" class="blue-grey-text">Logout</a>
         </li>
 
-        <li data-js="logged-out" class="hide">
-          <a href="#" class="blue-grey-text modal-trigger" data-target="modal-login">Login</a>
+        <li data-js="logged-out" class="">
+          <a href="#oi" class="blue-grey-text modal-trigger" data-target="modal-login">Login</a>
         </li>
       </ul>
     </div>
   </nav>
-
+  
   <div data-js="modal-login" id="modal-login" class="modal blue-grey darken-4 blue-grey-text text-lighten-5">
     <div class="modal-content">
       <h4>Login</h4><br />
@@ -68,6 +68,7 @@
   </div>
 
   <div class="container phrases-container">
+    <h4 class="center-align white-text text-lighten-2">Faça login para ver as frases</h4>
     <ul data-js="phrases-list" class="collapsible z-depth-0 phrases"></ul>
   </div>
 
